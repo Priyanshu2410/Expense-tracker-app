@@ -10,10 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
 
     <link rel="stylesheet" href="style.css" />
-   <script>
-  const owltics = new Owltics({ appId: "e521fccc-68a3-4598-ab5f-8e0c6b061b1a" });
-  owltics.init();
-</script>
+  <script src="https://devapp.owltics.com/websdk.js"></script>
 </head>
 
 <body>
@@ -63,7 +60,10 @@
             <div class="list-container" id="list"></div>
         </div>
     </div>
-    
+    <script>
+  const owltics = new Owltics({ appId: "e521fccc-68a3-4598-ab5f-8e0c6b061b1a" });
+  owltics.init();
+</script>
     <script src="script.js"></script>
 </body>
 
